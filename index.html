@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramesh Kumar - Personal Webpage</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px;
+        }
+
+        header .logo {
+            float: left;
+        }
+
+        header .logo h1 {
+            margin: 0;
+        }
+
+        .banner {
+            background: #35424a;
+            color: #ffffff;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .banner h1 {
+            font-size: 50px;
+        }
+
+        .main {
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .main h2 {
+            text-align: center;
+        }
+
+        .main .section {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .footer-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer-icons a {
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            border-bottom: 1px solid white;
+            padding-bottom: 0;
+        }
+
+        /* Media Queries for Responsive Design */
+        @media only screen and (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            header {
+                display: none; /* Hide the header on screens smaller than 768px */
+            }
+
+            .banner h1 {
+                font-size: 40px;
+            }
+
+            .main {
+                padding: 10px;
+            }
+
+            .main h2 {
+                font-size: 24px;
+            }
+
+            .project-column {
+                width: calc(50% - 20px);
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .banner h1 {
+                font-size: 30px;
+            }
+
+            .main h2 {
+                font-size: 20px;
+            }
+
+            .footer-icons a {
+                font-size: 18px;
+            }
+
+            .project-column {
+                width: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Ramesh Kumar</h1>
+            </div>
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <h1>Ramesh Kumar</h1>
+            <p>Bangalore, India | Support Engineer | Data Analyst</p>
+        </div>
+    </section>
+
+    <div class="container main">
+        <section id="about" class="section main">
+            <h2>About Me</h2>
+            <p>Detail-oriented and proactive Support Engineer with over 2 years of experience specializing in technical support, troubleshooting, and database maintenance. Proven ability to diagnose and resolve complex technical issues efficiently while maintaining high levels of client satisfaction. Adept at managing and optimizing client databases to ensure data accuracy and availability. Currently expanding expertise into data analysis and business intelligence, with hands-on experience in SQL, Power BI, and Excel. Demonstrates strong analytical and problem-solving skills, with a commitment to continuous learning and staying updated on industry trends. Adept at collaborating with cross-functional teams to address and resolve intricate technical challenges, contributing to overall business performance and client success.</p>
+        </section>
+
+        <section id="experience" class="section main">
+            <h2>Professional Experience</h2>
+            <h3>Support Engineer</h3>
+            <p><strong>Infinite Computer Solutions</strong> | Bangalore, India | February 2023 – Present</p>
+            <ul>
+                <li>Diagnosed and resolved software and hardware issues, achieving a 98% resolution rate within the first call.</li>
+                <li>Maintained and updated client databases, ensuring 100% data integrity and accuracy.</li>
+                <li>Troubleshot network connectivity issues, reducing downtime by 30% and improving system performance.</li>
+                <li>Collaborated with cross-functional teams to resolve complex technical issues, reducing incident resolution time by 20%.</li>
+                <li>Developed and maintained comprehensive documentation for troubleshooting processes, enhancing team efficiency by 15%.</li>
+                <li>Conducted root cause analysis for recurring issues, implementing preventive measures that decreased incidents by 25%.</li>
+                <li>Assisted in software installations, updates, and configurations, ensuring 100% compliance with company standards.</li>
+                <li>Provided technical training to new team members, reducing onboarding time by 50%.</li>
+                <li>Delivered high levels of customer satisfaction by effectively communicating with clients and providing timely solutions.</li>
+            </ul>
+            <h3>Developing Skills in Data Analysis and Business Intelligence:</h3>
+            <ul>
+                <li>Learning SQL, Power BI, and Excel to create data visualizations and reports.</li>
+                <li>Acquiring skills in statistical analysis and data modeling techniques.</li>
+                <li>Understanding key performance indicators (KPIs) and metrics for business performance measurement.</li>
+                <li>Exploring data analysis tools and programming languages like Python for advanced analytics.</li>
+                <li>Participating in online courses and obtaining certifications to enhance data analytics and business intelligence capabilities.</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section main">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Technical Support:</strong> Troubleshooting, Network Connectivity, Client Support, Software Installation and Configuration</li>
+                <li><strong>Data Analysis & Business Intelligence:</strong> SQL, Power BI, Excel, Tableau</li>
+                <li><strong>Programming Languages:</strong> Python</li>
+                <li><strong>Data Visualization:</strong> Power BI, Excel</li>
+                <li><strong>Database Management:</strong> SQL Server, Oracle</li>
+                <li><strong>Statistical Analysis & Modeling:</strong> Regression Analysis, Predictive Modeling</li>
+            </ul>
+        </section>
+
+        <section id="education" class="section main">
+            <h2>Education</h2>
+            <p><strong>Bachelor of Engineering in Computer Science & Engineering [CGPA: 7.8]</strong> <strong style="text-align-last: right;">Aug 2019 - Aug 2022</strong></p>
+            <p>Rajarajeswari College of Engineering, Bangalore, India</p>
+        </section>
+
+        <section>
+            <h2>Additional Information:</h2>
+            <ul>
+                <li>Willing to relocate to the company site.</li>
+                <li>Open to opportunities for work abroad.</li>
+                <li>Have applied for an H-1B visa.</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section main">
+            <h2>Contact</h2>
+            <p>Bangalore, India</p>
+            <p>Phone: <a href="tel:+91-6363031447">+91-6363031447</a></p>
+            <p>Email: <a href="mailto:ramesh21.kumar08@gmail.com">ramesh21.kumar08@gmail.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Ramesh Kumar. All rights reserved.</p>
+        <div class="footer-icons">
+            <a href="https://www.linkedin.com/in/ramesh-kumar-654039171/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
